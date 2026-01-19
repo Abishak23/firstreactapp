@@ -7,7 +7,7 @@ function App() {
   
   };
 
-  return <button onClick={fetchData}>Fetch Data</button>;
+  return <button onClick={fetchData}>Fetch </button>;
 }
 
 
