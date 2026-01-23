@@ -7,7 +7,7 @@ import SalesBarChart from "./bar";
 function App() {
   const [column, setcolumn] = useState([]);
 
-  useEffect(() => {git in
+  useEffect(() => {
     fetch("https://fakestoreapi.com/products")
       .then((response) => response.json())
       .then((data) => {
@@ -61,7 +61,7 @@ function App() {
         </tbody>
       </table>
 
-      {/* CHARTS */}
+      
       <ChartComponent />
       <PieChartComponent />
       <SalesBarChart />
